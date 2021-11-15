@@ -1,0 +1,115 @@
+
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+*{
+  
+    text-align: center;
+    background-color: burlywood;
+    align-items: center;
+   
+  }
+  
+  .Heading{
+    font-family: 'Mochiy Pop One', sans-serif;
+    color:rgb(105, 31, 31);
+    text-shadow: 0 0 3px #4614887e, 0 0 40px #bbff00;
+  }
+  .label{
+    background-color: transparent;
+    font-family: 'Yuji Syuku', serif;
+  }
+  .Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 #555;
+    background-image: linear-gradient(white,white,white,rgb(134, 134, 230), rgb(11, 11, 49));
+  }
+  .inputData{
+      height: 50px;
+      background-color: hsl(0, 100%, 70%);
+      font-family: 'Lato' ;
+      display: block;
+      margin: 0 auto;
+      width: 350px;
+      border-radius: 30px;
+  }
+  .inputField{
+    margin: auto;
+    margin-top: 12px;
+    padding: 0px;
+    border-radius: 10px;
+    text-align:center;
+    font-size: 17px;
+    width: 200px;
+    background-color: rgb(226, 175, 156);
+    text-transform: capitalize;
+  }
+  .info, .location, .errorMsg, h3 ,h2 ,.D{
+      background-color: transparent;
+    }
+    
+ .weather{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background:rgb(241, 230, 225);
+   font-size: 17px;
+  width: 210px;
+  text-transform: capitalize;
+  margin: auto;
+  border-radius: 20px;
+  color: darkslategrey;
+ }
+ .location{
+  font-size: 40px;
+  font-family: 'Titillium Web', sans-serif;
+  color: rgb(13, 13, 102);
+  text-transform: capitalize;
+  text-shadow: 2px 2px yellow;
+ }
+  .citytemp{
+    background:transparent;
+   
+    font-family: 'Lobster';
+    font-size: 25px;
+  }
+  h3{
+      color: rgb(25, 95, 88);
+  }
+  span{
+    text-shadow: 1px 1px #0a0a0a;
+      border-radius: 5px;
+      background-color: violet;
+      font-family: 'Lobster';
+     
+  }
+  .daydiv{
+    background-color:rgb(105, 31, 31);
+    width: 100%;
+  }
+  .day{
+    font-size: 20px;
+    font-family: 'Yuji Syuku', serif;
+    background-color: rgb(105, 31, 31);
+    color:rgb(67, 218, 67);
+  }
+  .image{
+    border-radius: 6px;
+    background-color:coral;
+  }
+  .parent{
+
+  
+    display: inline-flex;
+  
+    }
+  
